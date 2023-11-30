@@ -1,0 +1,71 @@
+.bg-img-container {
+  z-index: -1;
+}
+.bg-img {
+  height: 100vh;
+  object-fit: cover;
+}
+.primary-color {
+  background-color: #9fc7d6;
+}
+.secondary-color {
+  background-color: #1c405c;
+}
+p {
+  font-size: clamp(14px, 2vw, 18px);
+}
+h1 {
+  font-size: clamp(2.2rem, 5vw, 3rem) !important;
+}
+
+h2 {
+  font-size: clamp(1.8rem, 4vw, 2.5rem) !important;
+}
+
+h3 {
+  font-size: clamp(1.6rem, 3vw, 2rem) !important;
+}
+
+h4 {
+  font-size: clamp(1.4rem, 2.5vw, 1.8rem) !important;
+}
+
+h5 {
+  font-size: clamp(1.2rem, 2vw, 1.5rem) !important;
+}
+
+h6 {
+  font-size: clamp(1rem, 1.5vw, 1.2rem) !important;
+}
+.fw-1 {
+  font-weight: 100;
+}
+.fw-2 {
+  font-weight: 200;
+}
+.fw-3 {
+  font-weight: 300;
+}
+.fw-4 {
+  font-weight: 400;
+}
+.fw-5 {
+  font-weight: 500;
+}
+.fw-6 {
+  font-weight: 600;
+}
+input::placeholder {
+  color: white !important;
+  opacity: 0.7 !important;
+  font-size: clamp(14px, 2vw, 18px);
+}
+input {
+  font-size: clamp(14px, 2vw, 18px) !important;
+}
+.day-input:focus {
+  background-color: #9fc7d6 !important;
+}
+.night-input:focus {
+  background-color: #1c405c !important;
+}
