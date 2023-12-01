@@ -77,7 +77,7 @@ const ForeCast = ({ forecast, coords, isDay }) => {
               >
                 <WeatherPill>
                   <p>{item.time}</p>
-                  <img src={item.icon} />
+                  <img src={item.icon} alt="weather-icon" />
                   <p>{Math.round(item.temp)}°C</p>
                 </WeatherPill>
               </Col>
