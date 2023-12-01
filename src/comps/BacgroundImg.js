@@ -11,6 +11,8 @@ const BackgroundImg = ({ loading, isDay }) => {
             src={isDay ? DayImg : NightImg}
             className="bg-img w-100"
             loading="lazy"
+            alt="Background image"
+            fetchPriority="high"
           />
         </div>
       )}

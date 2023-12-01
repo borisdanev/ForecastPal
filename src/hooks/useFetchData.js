@@ -15,7 +15,7 @@ const useFetchData = (url, options, coords) => {
     } finally {
       setLoading(false);
     }
-  }, [coords, options, url]);
+  }, [coords]);
   return { data, loading, error, fetchData };
 };
 export default useFetchData;
