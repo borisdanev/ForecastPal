@@ -29,6 +29,7 @@ const App = () => {
   );
   useEffect(() => {
     setCoords(coordsData);
+    console.log(coords);
   }, [coordsData]);
   useEffect(() => {
     if (coords) fetchData();

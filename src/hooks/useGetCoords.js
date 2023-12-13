@@ -10,14 +10,15 @@ const useGetCoords = () => {
           longitude,
         });
       },
-      () =>
-        alert(
-          " Location access denied. The application will not work without location access."
-        ),
-      { enableHighAccuracy: true }
+      () => {
+        alert("Location set to default");
+        setCoords({ latitude: 41.9961816, longitude: 21.4319213 });
+      },
+      {
+        enableHighAccuracy: true,
+      }
     );
   }, []);
-  console.log(coords);
   return coords;
 };
 export default useGetCoords;
